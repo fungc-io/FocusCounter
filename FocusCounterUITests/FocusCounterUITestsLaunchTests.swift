@@ -1,13 +1,13 @@
 //
-//  TallyUITestsLaunchTests.swift
-//  TallyUITests
+//  FocusCounterUITestsLaunchTests.swift
+//  FocusCounterUITests
 //
 //  Created by Fung on 08/12/2024.
 //
 
 import XCTest
 
-final class TallyUITestsLaunchTests: XCTestCase {
+final class FocusCounterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

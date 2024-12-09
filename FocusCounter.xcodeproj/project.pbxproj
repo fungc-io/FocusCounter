@@ -12,37 +12,37 @@
 			containerPortal = B006E0E32D065B7C00C812A6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B006E0EA2D065B7C00C812A6;
-			remoteInfo = Tally;
+			remoteInfo = FocusCounter;
 		};
 		B006E1072D065B7E00C812A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B006E0E32D065B7C00C812A6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B006E0EA2D065B7C00C812A6;
-			remoteInfo = Tally;
+			remoteInfo = FocusCounter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B006E0EB2D065B7C00C812A6 /* Tally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tally.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B006E0FC2D065B7E00C812A6 /* TallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B006E1062D065B7E00C812A6 /* TallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B006E0EB2D065B7C00C812A6 /* FocusCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B006E0FC2D065B7E00C812A6 /* FocusCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B006E1062D065B7E00C812A6 /* FocusCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B006E0ED2D065B7C00C812A6 /* Tally */ = {
+		B006E0ED2D065B7C00C812A6 /* FocusCounter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Tally;
+			path = FocusCounter;
 			sourceTree = "<group>";
 		};
-		B006E0FF2D065B7E00C812A6 /* TallyTests */ = {
+		B006E0FF2D065B7E00C812A6 /* FocusCounterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TallyTests;
+			path = FocusCounterTests;
 			sourceTree = "<group>";
 		};
-		B006E1092D065B7E00C812A6 /* TallyUITests */ = {
+		B006E1092D065B7E00C812A6 /* FocusCounterUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TallyUITests;
+			path = FocusCounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		B006E0E22D065B7C00C812A6 = {
 			isa = PBXGroup;
 			children = (
-				B006E0ED2D065B7C00C812A6 /* Tally */,
-				B006E0FF2D065B7E00C812A6 /* TallyTests */,
-				B006E1092D065B7E00C812A6 /* TallyUITests */,
+				B006E0ED2D065B7C00C812A6 /* FocusCounter */,
+				B006E0FF2D065B7E00C812A6 /* FocusCounterTests */,
+				B006E1092D065B7E00C812A6 /* FocusCounterUITests */,
 				B006E0EC2D065B7C00C812A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		B006E0EC2D065B7C00C812A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B006E0EB2D065B7C00C812A6 /* Tally.app */,
-				B006E0FC2D065B7E00C812A6 /* TallyTests.xctest */,
-				B006E1062D065B7E00C812A6 /* TallyUITests.xctest */,
+				B006E0EB2D065B7C00C812A6 /* FocusCounter.app */,
+				B006E0FC2D065B7E00C812A6 /* FocusCounterTests.xctest */,
+				B006E1062D065B7E00C812A6 /* FocusCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B006E0EA2D065B7C00C812A6 /* Tally */ = {
+		B006E0EA2D065B7C00C812A6 /* FocusCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B006E1102D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "Tally" */;
+			buildConfigurationList = B006E1102D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounter" */;
 			buildPhases = (
 				B006E0E72D065B7C00C812A6 /* Sources */,
 				B006E0E82D065B7C00C812A6 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B006E0ED2D065B7C00C812A6 /* Tally */,
+				B006E0ED2D065B7C00C812A6 /* FocusCounter */,
 			);
-			name = Tally;
+			name = FocusCounter;
 			packageProductDependencies = (
 			);
-			productName = Tally;
-			productReference = B006E0EB2D065B7C00C812A6 /* Tally.app */;
+			productName = FocusCounter;
+			productReference = B006E0EB2D065B7C00C812A6 /* FocusCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B006E0FB2D065B7E00C812A6 /* TallyTests */ = {
+		B006E0FB2D065B7E00C812A6 /* FocusCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B006E1132D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "TallyTests" */;
+			buildConfigurationList = B006E1132D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounterTests" */;
 			buildPhases = (
 				B006E0F82D065B7E00C812A6 /* Sources */,
 				B006E0F92D065B7E00C812A6 /* Frameworks */,
@@ -131,18 +131,18 @@
 				B006E0FE2D065B7E00C812A6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B006E0FF2D065B7E00C812A6 /* TallyTests */,
+				B006E0FF2D065B7E00C812A6 /* FocusCounterTests */,
 			);
-			name = TallyTests;
+			name = FocusCounterTests;
 			packageProductDependencies = (
 			);
-			productName = TallyTests;
-			productReference = B006E0FC2D065B7E00C812A6 /* TallyTests.xctest */;
+			productName = FocusCounterTests;
+			productReference = B006E0FC2D065B7E00C812A6 /* FocusCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B006E1052D065B7E00C812A6 /* TallyUITests */ = {
+		B006E1052D065B7E00C812A6 /* FocusCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B006E1162D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "TallyUITests" */;
+			buildConfigurationList = B006E1162D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounterUITests" */;
 			buildPhases = (
 				B006E1022D065B7E00C812A6 /* Sources */,
 				B006E1032D065B7E00C812A6 /* Frameworks */,
@@ -154,13 +154,13 @@
 				B006E1082D065B7E00C812A6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B006E1092D065B7E00C812A6 /* TallyUITests */,
+				B006E1092D065B7E00C812A6 /* FocusCounterUITests */,
 			);
-			name = TallyUITests;
+			name = FocusCounterUITests;
 			packageProductDependencies = (
 			);
-			productName = TallyUITests;
-			productReference = B006E1062D065B7E00C812A6 /* TallyUITests.xctest */;
+			productName = FocusCounterUITests;
+			productReference = B006E1062D065B7E00C812A6 /* FocusCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B006E0E62D065B7C00C812A6 /* Build configuration list for PBXProject "Tally" */;
+			buildConfigurationList = B006E0E62D065B7C00C812A6 /* Build configuration list for PBXProject "FocusCounter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B006E0EA2D065B7C00C812A6 /* Tally */,
-				B006E0FB2D065B7E00C812A6 /* TallyTests */,
-				B006E1052D065B7E00C812A6 /* TallyUITests */,
+				B006E0EA2D065B7C00C812A6 /* FocusCounter */,
+				B006E0FB2D065B7E00C812A6 /* FocusCounterTests */,
+				B006E1052D065B7E00C812A6 /* FocusCounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		B006E0FE2D065B7E00C812A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B006E0EA2D065B7C00C812A6 /* Tally */;
+			target = B006E0EA2D065B7C00C812A6 /* FocusCounter */;
 			targetProxy = B006E0FD2D065B7E00C812A6 /* PBXContainerItemProxy */;
 		};
 		B006E1082D065B7E00C812A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B006E0EA2D065B7C00C812A6 /* Tally */;
+			target = B006E0EA2D065B7C00C812A6 /* FocusCounter */;
 			targetProxy = B006E1072D065B7E00C812A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,13 +392,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tally/Tally.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FocusCounter/FocusCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9YKM7BY49M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -407,7 +408,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.Tally";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,13 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tally/Tally.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FocusCounter/FocusCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9YKM7BY49M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -434,7 +436,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.Tally";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,11 +453,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.TallyTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusCounter";
 			};
 			name = Debug;
 		};
@@ -469,11 +471,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.TallyTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusCounter";
 			};
 			name = Release;
 		};
@@ -485,11 +487,11 @@
 				DEVELOPMENT_TEAM = 9YKM7BY49M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.TallyUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Tally;
+				TEST_TARGET_NAME = FocusCounter;
 			};
 			name = Debug;
 		};
@@ -501,18 +503,18 @@
 				DEVELOPMENT_TEAM = 9YKM7BY49M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.TallyUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fungc-io.FocusCounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Tally;
+				TEST_TARGET_NAME = FocusCounter;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B006E0E62D065B7C00C812A6 /* Build configuration list for PBXProject "Tally" */ = {
+		B006E0E62D065B7C00C812A6 /* Build configuration list for PBXProject "FocusCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B006E10E2D065B7E00C812A6 /* Debug */,
@@ -521,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B006E1102D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "Tally" */ = {
+		B006E1102D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B006E1112D065B7E00C812A6 /* Debug */,
@@ -530,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B006E1132D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "TallyTests" */ = {
+		B006E1132D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B006E1142D065B7E00C812A6 /* Debug */,
@@ -539,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B006E1162D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "TallyUITests" */ = {
+		B006E1162D065B7E00C812A6 /* Build configuration list for PBXNativeTarget "FocusCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B006E1172D065B7E00C812A6 /* Debug */,

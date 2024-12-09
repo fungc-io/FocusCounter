@@ -1,13 +1,13 @@
 //
-//  TallyUITests.swift
-//  TallyUITests
+//  FocusCounterUITests.swift
+//  FocusCounterUITests
 //
 //  Created by Fung on 08/12/2024.
 //
 
 import XCTest
 
-final class TallyUITests: XCTestCase {
+final class FocusCounterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
